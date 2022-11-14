@@ -1,3 +1,6 @@
+clc
+clear
+disp("马某的MATLAB开源，请访问个人GITHUB:https://github.com/souyou233/Enki-Matlab-study-open-source,进行下载开发")
 Z0=2*rand(5);%题干要求将Z0生成为范围是0到2的5x5随机矩阵
 [X0,Y0]=meshgrid(1:5);%用meshgrid把X0,Y0对应，便于形成网络
 subplot(2,2,1)%设置分图1
